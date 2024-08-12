@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:space-between;
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.content a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.title-2{
+    margin-right: 25px;
+}
+.sidebar-left {
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
+.sidebar-left h2{
+    margin-top: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar-left:hover{
+    background-color: rgba(137, 43, 226, 0.548);
+}
+.sidebar-right {
+    background-color: rgba(255, 255, 255, 0.315);
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+    
+ }
+ .container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    padding: 20px;
+ }
+ .text-1:hover{
+    background-color: cadetblue;
+ }
+ .text-2:hover{
+    background-color: rgb(92, 209, 127);
+ }
+ .text-3:hover{
+    background-color: rgb(175, 95, 158);
+ }
+ .text-4:hover{
+    background-color: rgb(72, 75, 75);
+ }
+ .text-5:hover{
+    background-color: rgb(190, 141, 101);
+ }
+ .text-6:hover{
+    background-color: rgb(113, 174, 202);
+ }
+.card {
+      background-color: #aaa;
+      height: 100px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: #fff;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      padding: 55px;
+      text-align: center;
+ }
+.banner-1 {
+      background-color: #d3d3d3b0;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+}
+.banner-1:hover{
+    background-color: rgba(0, 255, 255, 0.432);
+}
+.banner-2:hover{
+    background-color: rgba(0, 68, 255, 0.459);
+}
+  .banner-1 h3{
+    margin-top: 40%;
+    
+  }
+  .banner-2 h3{
+    margin-top: 40%;
+    
+  }
+.banner-2 {
+      background-color: #d3d3d3;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .main{
+    padding: 20px;
+    background-color: #835a5a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  h1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  strong{
+    font-size: 20px;
+
+  }
