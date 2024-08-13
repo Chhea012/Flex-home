@@ -45,21 +45,27 @@
     padding: 20px;
  }
  .text-1:hover{
+  transform: translateX(5px)rotate(20deg);
     background-color: cadetblue;
  }
  .text-2:hover{
+  transform: rotate(0.2turn);
     background-color: rgb(92, 209, 127);
  }
  .text-3:hover{
+    transform: rotateX(50deg);
     background-color: rgb(175, 95, 158);
  }
  .text-4:hover{
+  transform: translateX(10px);
     background-color: rgb(72, 75, 75);
  }
  .text-5:hover{
+  transform: translate(20px, 30px);
     background-color: rgb(190, 141, 101);
  }
  .text-6:hover{
+  transform: skew(10deg, 15deg );
     background-color: rgb(113, 174, 202);
  }
 .card {
@@ -84,9 +90,11 @@
       font-size: 20px;
 }
 .banner-1:hover{
+  transform: skew(10deg);
     background-color: rgba(0, 255, 255, 0.432);
 }
 .banner-2:hover{
+  transform: translate(10px, 20px);
     background-color: rgba(0, 68, 255, 0.459);
 }
   .banner-1 h3{
